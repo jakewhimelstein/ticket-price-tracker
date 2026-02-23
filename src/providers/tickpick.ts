@@ -12,17 +12,28 @@ export const tickpickProvider: TicketProvider = {
     const urlWithParams = `${eventUrl}?qty=${ticketQuantity}-false&sortType=P`;
     const browser = await puppeteer.launch({
       headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-blink-features=AutomationControlled',
+      ],
     });
     const page = await browser.newPage();
 
     await page.setUserAgent(
       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     );
-    await page.goto(urlWithParams, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.goto(urlWithParams, { waitUntil: 'load', timeout: 45000 });
 
-    await page.waitForSelector('#listingContainer', { timeout: 15000 });
-    await new Promise((r) => setTimeout(r, 2000));
+    // Try primary container first; fall back to .listing (page structure may vary by event type)
+    const container = await page
+      .waitForSelector('#listingContainer', { timeout: 25000 })
+      .catch(() => null);
+    if (!container) {
+      await page.waitForSelector('.listing', { timeout: 8000 }).catch(() => null);
+    }
+    await new Promise((r) => setTimeout(r, 2500));
 
     const result = await page.evaluate(
       (pageUrl: string, quantity: number, providerId: ProviderId) => {
