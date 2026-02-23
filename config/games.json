@@ -1,0 +1,25 @@
+{
+  "ticketQuantity": 2,
+  "games": [
+    {
+      "id": "celtics-pistons-12-12",
+      "name": "Celtics vs Pistons",
+      "date": "2024-12-12",
+      "venue": "TD Garden",
+      "sources": {
+        "tickpick": "https://www.tickpick.com/buy-boston-celtics-vs-detroit-pistons-tickets-td-garden-12-12-24-7pm/6637544/",
+        "gametime": "https://gametime.co/nba-basketball/detroit-pistons-at-boston-celtics-tickets/12-12-2024-boston-ma-td-garden/events/66bf5fd00109394f0ebeb7d7"
+      }
+    },
+    {
+      "id": "celtics-bulls-12-19",
+      "name": "Celtics vs Bulls",
+      "date": "2024-12-19",
+      "venue": "TD Garden",
+      "sources": {
+        "tickpick": "https://www.tickpick.com/buy-boston-celtics-vs-chicago-bulls-tickets-td-garden-12-19-24-7pm/6633509/",
+        "gametime": "https://gametime.co/nba-basketball/bulls-at-celtics-tickets/12-19-2024-boston-ma-td-garden/events/66be5ccf7514c0d1631d2a79"
+      }
+    }
+  ]
+}

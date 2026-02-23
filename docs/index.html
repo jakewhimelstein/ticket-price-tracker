@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ticket Price Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0d0f14;
+      --surface: #151922;
+      --surface2: #1c2129;
+      --border: #2a3140;
+      --text: #e6e9ef;
+      --textMuted: #8b92a3;
+      --accent: #7dd3fc;
+      --accentDim: #38bdf8;
+      --green: #86efac;
+      --yellow: #fde047;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0 0 0.25rem 0;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: var(--textMuted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+    .meta span { color: var(--textMuted); }
+    .meta strong { color: var(--accent); font-family: 'JetBrains Mono', monospace; }
+    .game {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+    .game-header {
+      padding: 1rem 1.25rem;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.75rem;
+    }
+    .game-name { font-weight: 600; font-size: 1.1rem; }
+    .game-date, .game-venue { color: var(--textMuted); font-size: 0.9rem; }
+    .source {
+      margin: 0;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .source:last-of-type { border-bottom: none; }
+    .source-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--textMuted);
+      margin-bottom: 0.5rem;
+    }
+    .tickets {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.5rem;
+    }
+    .ticket {
+      padding: 0.6rem 0.75rem;
+      background: var(--bg);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .ticket-price { font-family: 'JetBrains Mono', monospace; font-weight: 500; color: var(--green); }
+    .ticket-seat { color: var(--textMuted); font-size: 0.8rem; }
+    .ticket a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .ticket a:hover { text-decoration: underline; }
+    .empty { color: var(--textMuted); font-size: 0.9rem; }
+    .loading, .error { text-align: center; padding: 3rem; color: var(--textMuted); }
+    .error { color: #f87171; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ticket Price Tracker</h1>
+    <p class="sub">Cheapest listings from TickPick, Gametime, and more. Data updates via GitHub Actions.</p>
+    <div id="meta" class="meta" style="display: none;"></div>
+    <div id="root" class="loading">Loading prices…</div>
+  </div>
+  <script>
+    const DATA_URL = 'data/prices.json';
+
+    function formatPrice(n) {
+      return '$' + Number(n).toLocaleString();
+    }
+
+    function formatDate(iso) {
+      if (!iso) return '—';
+      const d = new Date(iso);
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function renderGame(g) {
+      const sourcesHtml = (g.sources || []).map(s => {
+        const sorted = [...(s.tickets || [])].sort((a, b) => a.price - b.price);
+        const top = sorted.slice(0, 12);
+        const ticketsHtml = top.length
+          ? top.map(t => `
+            <div class="ticket">
+              <div class="ticket-price">${formatPrice(t.price)}</div>
+              <div class="ticket-seat">Sec ${t.section} · Row ${t.row}</div>
+              ${t.link ? `<a href="${t.link}" target="_blank" rel="noopener">View</a>` : ''}
+            </div>
+          `).join('')
+          : '<p class="empty">No listings or scrape pending.</p>';
+        return `
+          <div class="source">
+            <div class="source-title">${s.provider}</div>
+            <div class="tickets">${ticketsHtml}</div>
+          </div>
+        `;
+      }).join('');
+      return `
+        <article class="game" data-game-id="${g.gameId}">
+          <div class="game-header">
+            <span class="game-name">${escapeHtml(g.name)}</span>
+            <span class="game-date">${formatDate(g.date)}</span>
+            <span class="game-venue">${escapeHtml(g.venue || '')}</span>
+          </div>
+          ${sourcesHtml}
+        </article>
+      `;
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement('div');
+      div.textContent = s ?? '';
+      return div.innerHTML;
+    }
+
+    async function main() {
+      const root = document.getElementById('root');
+      const metaEl = document.getElementById('meta');
+      try {
+        const r = await fetch(DATA_URL);
+        if (!r.ok) throw new Error(r.status + ' ' + r.statusText);
+        const data = await r.json();
+        if (data.lastUpdated) {
+          metaEl.innerHTML = `
+            <span>Last updated: <strong>${new Date(data.lastUpdated).toLocaleString()}</strong></span>
+            <span>Quantity: <strong>${data.ticketQuantity || 2}</strong> tickets</span>
+          `;
+          metaEl.style.display = 'flex';
+        }
+        if (!data.games || data.games.length === 0) {
+          root.innerHTML = '<p class="empty">No games configured yet. Add games in <code>config/games.json</code> and run the scraper.</p>';
+          root.className = '';
+          return;
+        }
+        root.innerHTML = data.games.map(renderGame).join('');
+        root.className = '';
+      } catch (e) {
+        root.className = 'error';
+        root.innerHTML = 'Failed to load prices: ' + escapeHtml(e.message);
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
