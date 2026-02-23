@@ -137,7 +137,7 @@
           ? top.map(t => `
             <div class="ticket">
               <div class="ticket-price">${formatPrice(t.price)}</div>
-              <div class="ticket-seat">Sec ${t.section} · Row ${t.row}</div>
+              <div class="ticket-seat">${t.sectionLabel || ('Sec ' + t.section)} · ${t.rowLabel || ('Row ' + t.row)}</div>
               ${t.link ? `<a href="${t.link}" target="_blank" rel="noopener">View</a>` : ''}
             </div>
           `).join('')

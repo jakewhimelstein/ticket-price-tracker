@@ -12,6 +12,10 @@ export interface Ticket {
   quantity: number;
   provider: ProviderId;
   link: string;
+  /** Human-readable section (e.g. "CAT 1", "Lower101") when different from numeric */
+  sectionLabel?: string;
+  /** Human-readable row (e.g. "TBD") when different from numeric */
+  rowLabel?: string;
 }
 
 export interface ScrapeResult {
