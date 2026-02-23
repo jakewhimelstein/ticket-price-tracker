@@ -1,6 +1,9 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import type { Ticket, ProviderId } from '../types.js';
 import type { TicketProvider } from './types.js';
+
+puppeteer.use(StealthPlugin());
 
 const PROVIDER_ID: ProviderId = 'tickpick';
 
@@ -17,46 +20,56 @@ export const tickpickProvider: TicketProvider = {
         '--disable-setuid-sandbox',
         '--disable-dev-shm-usage',
         '--disable-blink-features=AutomationControlled',
+        '--window-size=1920,1080',
       ],
     });
     const page = await browser.newPage();
 
-    await page.setUserAgent(
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    );
-    await page.goto(urlWithParams, { waitUntil: 'load', timeout: 45000 });
+    await page.setViewport({ width: 1920, height: 1080 });
+    await page.goto(urlWithParams, { waitUntil: 'networkidle0', timeout: 60000 });
 
-    // Try primary container first; fall back to .listing (page structure may vary by event type)
-    const container = await page
-      .waitForSelector('#listingContainer', { timeout: 25000 })
-      .catch(() => null);
-    if (!container) {
-      await page.waitForSelector('.listing', { timeout: 8000 }).catch(() => null);
-    }
-    await new Promise((r) => setTimeout(r, 2500));
+    await Promise.race([
+      page.waitForSelector('#listingContainer', { timeout: 35000 }),
+      page.waitForSelector('.listing', { timeout: 35000 }),
+      page.waitForSelector('[class*="listing"]', { timeout: 35000 }),
+    ]).catch(() => null);
+    await new Promise((r) => setTimeout(r, 4000));
 
     const tickpickScript = `
       const tickets = [];
       const link = pageUrl;
       let failedTicketsCount = 0;
-      const ticketElements = document.querySelectorAll('.listing');
-      ticketElements.forEach(el => {
+      const parseSeat = (text) => {
+        let section = 0, row = 0, sectionLabel, rowLabel;
+        const sectionRow = (text || '').match(/Section\\s*(\\d+)\\s*[\\u2022\\u00B7\\•]?\\s*Row\\s*(\\d+)/i);
+        if (sectionRow) { section = +sectionRow[1]; row = +sectionRow[2]; }
+        else {
+          const cat = (text || '').match(/(?:Category|CAT)\\s*(\\d+)/i);
+          const num = (text || '').match(/(\\d+)/);
+          if (cat) { section = +cat[1]; sectionLabel = 'CAT ' + cat[1]; }
+          else if (num) section = +num[1];
+        }
+        return { section, row, sectionLabel, rowLabel };
+      };
+      const els = document.querySelectorAll('.listing');
+      els.forEach(el => {
         try {
-          let sectionStr = '', rowStr = '';
-          const sectionRowEl = el.querySelector('.sout span');
-          const sectionRowText = sectionRowEl ? sectionRowEl.textContent : '';
-          const match = sectionRowText && sectionRowText.match(/Section (\\d+) \\u2022 Row (\\d+)/);
-          if (match) { sectionStr = match[1]; rowStr = match[2]; }
-          const priceEl = el.querySelector('label > b');
-          const priceText = priceEl ? priceEl.textContent.trim() : '';
-          const price = priceText ? parseInt(priceText.replace(/^\\$/, ''), 10) : -1;
-          if (sectionStr && rowStr && price >= 0) {
-            const section = parseInt(sectionStr, 10);
-            const row = parseInt(rowStr, 10);
-            if (!isNaN(section) && !isNaN(row)) tickets.push({ section, row, price, quantity, provider: providerId, link });
-          } else failedTicketsCount++;
+          const sout = el.querySelector('.sout span') || el.querySelector('.sout');
+          const seat = parseSeat(sout ? sout.textContent : el.textContent);
+          const priceEl = el.querySelector('label > b') || el.querySelector('[class*="price"]');
+          const priceMatch = (el.textContent || '').match(/\\$[\\d,]+/);
+          const price = priceMatch ? parseInt(priceMatch[0].replace(/\\D/g, ''), 10) : (priceEl ? parseInt((priceEl.textContent || '').replace(/\\D/g, ''), 10) : -1);
+          if (price >= 0) tickets.push({ section: seat.section, row: seat.row, price, quantity, provider: providerId, link, sectionLabel: seat.sectionLabel, rowLabel: seat.rowLabel });
+          else failedTicketsCount++;
         } catch { failedTicketsCount++; }
       });
+      if (els.length === 0) {
+        document.querySelectorAll('[class*="Listing"], [class*="listing"]').forEach(el => {
+          const priceMatch = (el.textContent || '').match(/\\$[\\d,]+/);
+          const price = priceMatch ? parseInt(priceMatch[0].replace(/\\D/g, ''), 10) : -1;
+          if (price >= 0) { const s = parseSeat(el.textContent); tickets.push({ section: s.section, row: s.row, price, quantity, provider: providerId, link, sectionLabel: s.sectionLabel, rowLabel: s.rowLabel }); }
+        });
+      }
       return { provider: providerId, tickets, failedCount: failedTicketsCount };
     `;
     const result = await page.evaluate(
