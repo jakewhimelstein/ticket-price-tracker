@@ -26,7 +26,7 @@ export const tickpickProvider: TicketProvider = {
     const page = await browser.newPage();
 
     await page.setViewport({ width: 1920, height: 1080 });
-    await page.goto(urlWithParams, { waitUntil: 'networkidle0', timeout: 60000 });
+    await page.goto(urlWithParams, { waitUntil: 'load', timeout: 45000 });
 
     await Promise.race([
       page.waitForSelector('#listingContainer', { timeout: 35000 }),
