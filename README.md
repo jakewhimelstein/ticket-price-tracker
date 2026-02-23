@@ -4,6 +4,8 @@ A **GitHub-hosted** ticket price tracker that shows the cheapest listings for ga
 
 Inspired by [rjmcnamara10/ticket-tracker](https://github.com/rjmcnamara10/ticket-tracker).
 
+**New to this?** → **[SETUP.md](SETUP.md)** has a step-by-step guide (push to GitHub, add games, enable Pages, run the scraper).
+
 ## What you get
 
 - **Static GitHub Pages site** in `docs/` that shows ticket prices per game and per source.
