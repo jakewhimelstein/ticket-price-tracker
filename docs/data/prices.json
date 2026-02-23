@@ -1,5 +1,46 @@
 {
-  "lastUpdated": null,
+  "lastUpdated": "2026-02-23T07:35:08.026Z",
   "ticketQuantity": 2,
-  "games": []
+  "games": [
+    {
+      "gameId": "FIFA World Cup 26: Group H: Spain vs. Cape Verde - Match 14",
+      "name": "Spain vs Cape Verde",
+      "date": "2026-06-15",
+      "venue": "Mercedes-Benz Stadium",
+      "ticketQuantity": 2,
+      "lastUpdated": "2026-02-23T07:34:25.397Z",
+      "sources": [
+        {
+          "provider": "tickpick",
+          "tickets": [],
+          "failedCount": 0
+        },
+        {
+          "provider": "gametime",
+          "tickets": [],
+          "failedCount": 0
+        }
+      ]
+    },
+    {
+      "gameId": "celtics-bulls-12-19",
+      "name": "Celtics vs Bulls",
+      "date": "2024-12-19",
+      "venue": "TD Garden",
+      "ticketQuantity": 2,
+      "lastUpdated": "2026-02-23T07:35:08.026Z",
+      "sources": [
+        {
+          "provider": "tickpick",
+          "tickets": [],
+          "failedCount": 0
+        },
+        {
+          "provider": "gametime",
+          "tickets": [],
+          "failedCount": 0
+        }
+      ]
+    }
+  ]
 }
