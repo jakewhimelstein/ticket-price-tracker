@@ -35,45 +35,32 @@ export const tickpickProvider: TicketProvider = {
     }
     await new Promise((r) => setTimeout(r, 2500));
 
+    const tickpickScript = `
+      const tickets = [];
+      const link = pageUrl;
+      let failedTicketsCount = 0;
+      const ticketElements = document.querySelectorAll('.listing');
+      ticketElements.forEach(el => {
+        try {
+          let sectionStr = '', rowStr = '';
+          const sectionRowEl = el.querySelector('.sout span');
+          const sectionRowText = sectionRowEl ? sectionRowEl.textContent : '';
+          const match = sectionRowText && sectionRowText.match(/Section (\\d+) \\u2022 Row (\\d+)/);
+          if (match) { sectionStr = match[1]; rowStr = match[2]; }
+          const priceEl = el.querySelector('label > b');
+          const priceText = priceEl ? priceEl.textContent.trim() : '';
+          const price = priceText ? parseInt(priceText.replace(/^\\$/, ''), 10) : -1;
+          if (sectionStr && rowStr && price >= 0) {
+            const section = parseInt(sectionStr, 10);
+            const row = parseInt(rowStr, 10);
+            if (!isNaN(section) && !isNaN(row)) tickets.push({ section, row, price, quantity, provider: providerId, link });
+          } else failedTicketsCount++;
+        } catch { failedTicketsCount++; }
+      });
+      return { provider: providerId, tickets, failedCount: failedTicketsCount };
+    `;
     const result = await page.evaluate(
-      (pageUrl: string, quantity: number, providerId: ProviderId) => {
-        const tickets: Ticket[] = [];
-        const link = pageUrl;
-        let failedTicketsCount = 0;
-
-        const ticketElements = document.querySelectorAll('.listing');
-        ticketElements.forEach((ticketElement) => {
-          try {
-            let sectionStr = '';
-            let rowStr = '';
-            const sectionRowText = ticketElement.querySelector('.sout span')?.textContent;
-            if (sectionRowText) {
-              const match = sectionRowText.match(/Section (\d+) • Row (\d+)/);
-              if (match) {
-                [sectionStr, rowStr] = match.slice(1, 3);
-              }
-            }
-
-            const priceElement = ticketElement.querySelector('label > b');
-            const priceText = priceElement ? priceElement.textContent?.trim() : '';
-            const price = priceText ? parseInt(priceText.replace(/^\$/, ''), 10) : -1;
-
-            if (sectionStr && rowStr && price >= 0) {
-              const section = parseInt(sectionStr, 10);
-              const row = parseInt(rowStr, 10);
-              if (!Number.isNaN(section) && !Number.isNaN(row)) {
-                tickets.push({ section, row, price, quantity, provider: providerId, link });
-              }
-            } else {
-              failedTicketsCount++;
-            }
-          } catch {
-            failedTicketsCount++;
-          }
-        });
-
-        return { provider: providerId, tickets, failedCount: failedTicketsCount };
-      },
+      new Function('pageUrl', 'quantity', 'providerId', tickpickScript),
       urlWithParams,
       ticketQuantity,
       PROVIDER_ID

@@ -43,102 +43,63 @@ export const gametimeProvider: TicketProvider = {
       await new Promise((r) => setTimeout(r, 2000));
     }
 
-    const allInPricingEnabled = await page.evaluate(() => {
-      const el = document.querySelector('[data-testid="all-in-pricing"]');
-      return el?.classList.contains('_2amR4x2ztZ5dL7PJxn7oJo') ?? false;
-    });
+    const allInPricingEnabled = await page.evaluate(
+      new Function('const el = document.querySelector("[data-testid=\\"all-in-pricing\\"]"); return el && el.classList.contains("_2amR4x2ztZ5dL7PJxn7oJo") || false;')
+    );
     if (!allInPricingEnabled) {
       await page.click('[data-testid="all-in-pricing"]').catch(() => null);
       await new Promise((r) => setTimeout(r, 2000));
     }
 
-    const result = await page.evaluate(
-      (pageUrl: string, quantity: number, providerId: ProviderId) => {
-        const tickets: Ticket[] = [];
-        let failedTicketsCount = 0;
-        const seen = new Set<string>();
-
-        const processCard = (el: Element, link: string) => {
-          const text = el.textContent || '';
-          const priceMatch = text.match(/\$[\d,]+/);
-          const price = priceMatch ? parseInt(priceMatch[0].replace(/[^\d]/g, ''), 10) : -1;
-
-          let section = 0;
-          let row = 0;
-          let sectionLabel: string | undefined;
-          let rowLabel: string | undefined;
-
-          const seatEl = el.querySelector(
-            '.pages-Event-components-ListingCard-ListingCard-module__seat-details-row'
-          );
-          const seatText = (seatEl?.textContent || text);
-
-          const nbaMatch = seatText.match(/(\d+),?\s*Row\s*(\d+|[A-Z])/i);
-          if (nbaMatch) {
-            section = parseInt(nbaMatch[1], 10);
-            const r = nbaMatch[2];
-            row = /\d+/.test(r) ? parseInt(r, 10) : r.charCodeAt(0);
-          } else {
-            const catMatch = seatText.match(/CAT\s*(\d+)/i);
-            const lowerMatch = seatText.match(/Lower\s*(\d+)/i);
-            const rowMatch = seatText.match(/Row\s*(\d+|[A-Z]|TBD)/i);
-            if (catMatch) {
-              section = parseInt(catMatch[1], 10);
-              sectionLabel = `CAT ${catMatch[1]}`;
-            } else if (lowerMatch) {
-              section = parseInt(lowerMatch[1], 10);
-              sectionLabel = `Lower${lowerMatch[1]}`;
-            } else {
-              const anyNum = seatText.match(/(\d+)/);
-              if (anyNum) section = parseInt(anyNum[1], 10);
-            }
-            if (rowMatch) {
-              const r = rowMatch[1];
-              if (r.toUpperCase() === 'TBD') {
-                rowLabel = 'TBD';
-              } else {
-                row = /\d+/.test(r) ? parseInt(r, 10) : r.charCodeAt(0);
-              }
-            }
+    const evalScript = `
+      const tickets = [];
+      let failedTicketsCount = 0;
+      const seen = new Set();
+      const processCard = (el, link) => {
+        const text = el.textContent || '';
+        const priceMatch = text.match(/\\$[\\d,]+/);
+        const price = priceMatch ? parseInt(priceMatch[0].replace(/[^\\d]/g, ''), 10) : -1;
+        let section = 0, row = 0, sectionLabel, rowLabel;
+        const seatEl = el.querySelector('.pages-Event-components-ListingCard-ListingCard-module__seat-details-row');
+        const seatText = (seatEl && seatEl.textContent) || text;
+        const nbaMatch = seatText.match(/(\\d+),?\\s*Row\\s*(\\d+|[A-Z])/i);
+        if (nbaMatch) {
+          section = parseInt(nbaMatch[1], 10);
+          const r = nbaMatch[2];
+          row = /\\d+/.test(r) ? parseInt(r, 10) : r.charCodeAt(0);
+        } else {
+          const catMatch = seatText.match(/CAT\\s*(\\d+)/i);
+          const lowerMatch = seatText.match(/Lower\\s*(\\d+)/i);
+          const rowMatch = seatText.match(/Row\\s*(\\d+|[A-Z]|TBD)/i);
+          if (catMatch) { section = parseInt(catMatch[1], 10); sectionLabel = 'CAT ' + catMatch[1]; }
+          else if (lowerMatch) { section = parseInt(lowerMatch[1], 10); sectionLabel = 'Lower' + lowerMatch[1]; }
+          else { const m = seatText.match(/(\\d+)/); if (m) section = parseInt(m[1], 10); }
+          if (rowMatch) {
+            const r = rowMatch[1];
+            if (r.toUpperCase() === 'TBD') rowLabel = 'TBD';
+            else row = /\\d+/.test(r) ? parseInt(r, 10) : r.charCodeAt(0);
           }
-
-          const key = `${link}-${price}-${section}-${row}`;
-          if (price >= 0 && link && !seen.has(key)) {
-            seen.add(key);
-            tickets.push({
-              section,
-              row,
-              price,
-              quantity,
-              provider: providerId,
-              link,
-              sectionLabel,
-              rowLabel,
-            });
-          } else if (price < 0 || !link) {
-            failedTicketsCount++;
-          }
-        };
-
-        const nbaCards = document.querySelectorAll(
-          '.pages-Event-components-ListingCard-ListingCard-module__listing-card-container'
-        );
-        nbaCards.forEach((card) => {
-          const linkEl = card.querySelector('a[href*="/listings/"]');
-          const link = linkEl instanceof HTMLAnchorElement ? linkEl.href : pageUrl;
-          processCard(card, link);
-        });
-
-        if (nbaCards.length === 0) {
-          document.querySelectorAll('a[href*="/listings/"]').forEach((a) => {
-            if (!(a instanceof HTMLAnchorElement)) return;
-            const card = a.closest('[class*="Listing"]') || a.closest('[class*="Card"]') || a;
-            processCard(card, a.href);
-          });
         }
-
-        return { provider: providerId, tickets, failedCount: failedTicketsCount };
-      },
+        const key = link + '-' + price + '-' + section + '-' + row;
+        if (price >= 0 && link && !seen.has(key)) {
+          seen.add(key);
+          tickets.push({ section, row, price, quantity, provider: providerId, link, sectionLabel, rowLabel });
+        } else if (price < 0 || !link) failedTicketsCount++;
+      };
+      const nbaCards = document.querySelectorAll('.pages-Event-components-ListingCard-ListingCard-module__listing-card-container');
+      nbaCards.forEach(card => {
+        const linkEl = card.querySelector('a[href*="/listings/"]');
+        processCard(card, linkEl && linkEl.href ? linkEl.href : pageUrl);
+      });
+      if (nbaCards.length === 0) {
+        document.querySelectorAll('a[href*="/listings/"]').forEach(a => {
+          if (a.href) processCard(a.closest('[class*="Listing"]') || a.closest('[class*="Card"]') || a, a.href);
+        });
+      }
+      return { provider: providerId, tickets, failedCount: failedTicketsCount };
+    `;
+    const result = await page.evaluate(
+      new Function('pageUrl', 'quantity', 'providerId', evalScript),
       eventUrl,
       ticketQuantity,
       PROVIDER_ID
