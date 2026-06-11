@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T12:58:20.828Z",
+  "lastUpdated": "2026-06-11T14:00:37.501Z",
   "ticketQuantity": 2,
   "games": [
     {
@@ -8,7 +8,7 @@
       "date": "2026-06-15",
       "venue": "Mercedes-Benz Stadium",
       "ticketQuantity": 2,
-      "lastUpdated": "2026-06-10T12:57:19.183Z",
+      "lastUpdated": "2026-06-11T13:59:35.602Z",
       "sources": [
         {
           "provider": "tickpick",
@@ -19,204 +19,20 @@
           "provider": "gametime",
           "tickets": [
             {
-              "section": 101,
-              "row": 53,
-              "price": 682,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2851af99548238fd422fbc?searchSessionId=13"
-            },
-            {
-              "section": 305,
-              "row": 9,
-              "price": 596,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2929d899548238fd44b4b4?searchSessionId=13"
-            },
-            {
-              "section": 345,
-              "row": 7,
-              "price": 604,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26049899548238fd7c65e4?searchSessionId=13"
-            },
-            {
               "section": 122,
               "row": 43,
-              "price": 707,
+              "price": 765,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a230a7599548238fd8e3052?searchSessionId=13"
             },
             {
-              "section": 103,
-              "row": 23,
-              "price": 836,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1097903828919bf03613f0?searchSessionId=13"
-            },
-            {
-              "section": 134,
-              "row": 19,
-              "price": 865,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0b32553828919bf01511f8?searchSessionId=13"
-            },
-            {
-              "section": 335,
-              "row": 25,
-              "price": 568,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28a90499548238fd23fe87?searchSessionId=13"
-            },
-            {
               "section": 307,
-              "row": 17,
-              "price": 604,
+              "row": 18,
+              "price": 626,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a187df16f57ee41ea8c904c?searchSessionId=13"
-            },
-            {
-              "section": 328,
-              "row": 3,
-              "price": 605,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a18742999548238fd2becfa?searchSessionId=13"
-            },
-            {
-              "section": 319,
-              "row": 25,
-              "price": 606,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28a0b299548238fd3912e6?searchSessionId=13"
-            },
-            {
-              "section": 334,
-              "row": 13,
-              "price": 611,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a24d41f99548238fdf4952f?searchSessionId=13"
-            },
-            {
-              "section": 344,
-              "row": 11,
-              "price": 619,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a280b3999548238fd01b557?searchSessionId=13"
-            },
-            {
-              "section": 309,
-              "row": 23,
-              "price": 625,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a25c6e199548238fd9ad8e5?searchSessionId=13"
-            },
-            {
-              "section": 333,
-              "row": 10,
-              "price": 625,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a285f7199548238fd8b9bc5?searchSessionId=13"
-            },
-            {
-              "section": 323,
-              "row": 24,
-              "price": 625,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26411799548238fde54e5e?searchSessionId=13"
-            },
-            {
-              "section": 344,
-              "row": 26,
-              "price": 627,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26e91c99548238fdc7b924?searchSessionId=13"
-            },
-            {
-              "section": 347,
-              "row": 17,
-              "price": 628,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1e01ea99548238fda4a450?searchSessionId=13"
-            },
-            {
-              "section": 329,
-              "row": 9,
-              "price": 637,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69f7462f50ae950bcb80cd42?searchSessionId=13"
-            },
-            {
-              "section": 3,
-              "row": 84,
-              "price": 1158,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6987a0d780822b968bad5ab3?searchSessionId=13"
-            },
-            {
-              "section": 348,
-              "row": 7,
-              "price": 648,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a272aaf8596ecaada22657b?searchSessionId=13"
-            },
-            {
-              "section": 323,
-              "row": 13,
-              "price": 652,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69f04ccd5d3b4e7cfc6c98d3?searchSessionId=13"
-            },
-            {
-              "section": 342,
-              "row": 4,
-              "price": 659,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1134393828919bf023c9d8?searchSessionId=13"
-            },
-            {
-              "section": 338,
-              "row": 19,
-              "price": 667,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1edcb699548238fd6b8ecd?searchSessionId=13"
-            },
-            {
-              "section": 336,
-              "row": 19,
-              "price": 730,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a20c67599548238fddb6bf0?searchSessionId=13"
-            },
-            {
-              "section": 314,
-              "row": 22,
-              "price": 678,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28e4c76aafe60977e7962f?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29be8a1221112a1d54459e?searchSessionId=13"
             },
             {
               "section": 342,
@@ -227,44 +43,68 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a282c6b99548238fd944219?searchSessionId=13"
             },
             {
-              "section": 217,
+              "section": 134,
+              "row": 19,
+              "price": 865,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0b32553828919bf01511f8?searchSessionId=13"
+            },
+            {
+              "section": 103,
+              "row": 25,
+              "price": 868,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a289ef599548238fdd659f2?searchSessionId=13"
+            },
+            {
+              "section": 114,
+              "row": 33,
+              "price": 897,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb54250ae950bcb41541c?searchSessionId=13"
+            },
+            {
+              "section": 333,
+              "row": 23,
+              "price": 596,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2abc2826ad7bee81c6d0aa?searchSessionId=13"
+            },
+            {
+              "section": 305,
               "row": 9,
-              "price": 681,
+              "price": 596,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a286a2199548238fd4fd84a?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2929d899548238fd44b4b4?searchSessionId=13"
             },
             {
-              "section": 341,
-              "row": 4,
-              "price": 682,
+              "section": 348,
+              "row": 7,
+              "price": 625,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a18b3f699548238fd6c3082?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a272aaf8596ecaada22657b?searchSessionId=13"
             },
             {
-              "section": 322,
-              "row": 9,
-              "price": 721,
+              "section": 3,
+              "row": 84,
+              "price": 638,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a19d08c99548238fd05c24e?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6987a0d780822b968bad5ab3?searchSessionId=13"
             },
             {
-              "section": 345,
+              "section": 315,
               "row": 15,
-              "price": 682,
+              "price": 686,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1a979599548238fd9d89a6?searchSessionId=13"
-            },
-            {
-              "section": 338,
-              "row": 6,
-              "price": 704,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1a58de99548238fd690490?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29915099548238fde26f13?searchSessionId=13"
             },
             {
               "section": 340,
@@ -275,28 +115,12 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a25620499548238fd47e111?searchSessionId=13"
             },
             {
-              "section": 219,
-              "row": 12,
-              "price": 693,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a236f1099548238fd39201a?searchSessionId=13"
-            },
-            {
-              "section": 221,
-              "row": 6,
-              "price": 693,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28bc2799548238fdc3952f?searchSessionId=13"
-            },
-            {
               "section": 344,
-              "row": 6,
+              "row": 9,
               "price": 701,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a280b3b99548238fd021002?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2771b899548238fdb7bb45?searchSessionId=13"
             },
             {
               "section": 340,
@@ -307,28 +131,60 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a21eccc99548238fd5b4a48?searchSessionId=13"
             },
             {
+              "section": 344,
+              "row": 26,
+              "price": 708,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26e91599548238fdc5e6a0?searchSessionId=13"
+            },
+            {
+              "section": 346,
+              "row": 21,
+              "price": 708,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29915099548238fde26ec7?searchSessionId=13"
+            },
+            {
+              "section": 345,
+              "row": 17,
+              "price": 708,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29915399548238fde388af?searchSessionId=13"
+            },
+            {
+              "section": 322,
+              "row": 12,
+              "price": 708,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29916199548238fde78bb6?searchSessionId=13"
+            },
+            {
               "section": 1,
               "row": 84,
-              "price": 713,
+              "price": 709,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a201a4499548238fdd457e3?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29a81899548238fdef78ee?searchSessionId=13"
             },
             {
-              "section": 317,
-              "row": 10,
-              "price": 720,
+              "section": 219,
+              "row": 12,
+              "price": 715,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a19d09799548238fd081a4d?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a236f1099548238fd39201a?searchSessionId=13"
             },
             {
-              "section": 344,
-              "row": 20,
-              "price": 723,
+              "section": 339,
+              "row": 35,
+              "price": 716,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fdfb1d9e5c23638779aefc?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2aad1eb49b364e0864e60c?searchSessionId=13"
             },
             {
               "section": 327,
@@ -339,12 +195,12 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1e01ea99548238fda4a480?searchSessionId=13"
             },
             {
-              "section": 122,
-              "row": 36,
-              "price": 728,
+              "section": 221,
+              "row": 6,
+              "price": 727,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a22301199548238fd2ee112?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28bc2799548238fdc3952f?searchSessionId=13"
             },
             {
               "section": 313,
@@ -355,12 +211,12 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a285f4e99548238fd83f336?searchSessionId=13"
             },
             {
-              "section": 216,
-              "row": 9,
-              "price": 728,
+              "section": 308,
+              "row": 21,
+              "price": 732,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28618c99548238fd1ddb03?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a4458b49b364e082cfdbe?searchSessionId=13"
             },
             {
               "section": 2,
@@ -371,36 +227,44 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6934c9c04c87f865d0d85555?searchSessionId=13"
             },
             {
-              "section": 329,
+              "section": 206,
+              "row": 12,
+              "price": 759,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2abb439435e22820d600b0?searchSessionId=13"
+            },
+            {
+              "section": 338,
+              "row": 19,
+              "price": 762,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1edcb699548238fd6b8ecd?searchSessionId=13"
+            },
+            {
+              "section": 338,
+              "row": 26,
+              "price": 762,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29915a99548238fde58611?searchSessionId=13"
+            },
+            {
+              "section": 347,
+              "row": 3,
+              "price": 763,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29916299548238fde8044b?searchSessionId=13"
+            },
+            {
+              "section": 328,
               "row": 1,
-              "price": 767,
+              "price": 766,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69e50bb85d3b4e7cfcad380e?searchSessionId=13"
-            },
-            {
-              "section": 350,
-              "row": 9,
-              "price": 772,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fdfb1e9e5c23638779df42?searchSessionId=13"
-            },
-            {
-              "section": 331,
-              "row": 20,
-              "price": 772,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1e026299548238fdc5e411?searchSessionId=13"
-            },
-            {
-              "section": 242,
-              "row": 8,
-              "price": 783,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a22cb9599548238fd336871?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1097133828919bf01ef1f8?searchSessionId=13"
             },
             {
               "section": 312,
@@ -411,92 +275,84 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26ebb5249f733115744e0f?searchSessionId=13"
             },
             {
+              "section": 331,
+              "row": 15,
+              "price": 795,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29a90a99548238fd2e7f96?searchSessionId=13"
+            },
+            {
+              "section": 318,
+              "row": 4,
+              "price": 804,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2ab81c97c791990d754fa2?searchSessionId=13"
+            },
+            {
+              "section": 242,
+              "row": 8,
+              "price": 810,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a22cb9599548238fd336871?searchSessionId=13"
+            },
+            {
+              "section": 306,
+              "row": 11,
+              "price": 817,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29a89499548238fd108bd9?searchSessionId=13"
+            },
+            {
+              "section": 326,
+              "row": 12,
+              "price": 822,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a248a375111d63f4bafc66e?searchSessionId=13"
+            },
+            {
+              "section": 233,
+              "row": 11,
+              "price": 823,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a96ecb49b364e082b627b?searchSessionId=13"
+            },
+            {
               "section": 246,
               "row": 8,
-              "price": 809,
+              "price": 828,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a21e9a199548238fda342f9?searchSessionId=13"
             },
             {
               "section": 122,
-              "row": 26,
-              "price": 810,
+              "row": 23,
+              "price": 834,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2033cd84d9e3f5e1922191?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29ae0867341b94a9731ef4?searchSessionId=13"
             },
             {
-              "section": 209,
-              "row": 10,
-              "price": 810,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a20289399548238fd9c94a5?searchSessionId=13"
-            },
-            {
-              "section": 326,
-              "row": 17,
-              "price": 811,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a248a1a3498f3b54bbc9c5a?searchSessionId=13"
-            },
-            {
-              "section": 230,
-              "row": 1,
-              "price": 842,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fd293b9e5c236387ea2096?searchSessionId=13"
-            },
-            {
-              "section": 346,
-              "row": 5,
-              "price": 836,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a248a2ed59f5d2efd4d8f4e?searchSessionId=13"
-            },
-            {
-              "section": 326,
+              "section": 203,
               "row": 12,
-              "price": 836,
+              "price": 840,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a248a375111d63f4bafc66e?searchSessionId=13"
-            },
-            {
-              "section": 318,
-              "row": 7,
-              "price": 827,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a10459514c8940b8571e307?searchSessionId=13"
-            },
-            {
-              "section": 102,
-              "row": 38,
-              "price": 828,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69ef93ad5d3b4e7cfc4cbd0c?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb7f050ae950bcbdff515?searchSessionId=13"
             },
             {
               "section": 234,
-              "row": 7,
-              "price": 832,
+              "row": 8,
+              "price": 841,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26f2f899548238fdc1af98?searchSessionId=13"
-            },
-            {
-              "section": 206,
-              "row": 4,
-              "price": 867,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a187f3d99548238fd8c9218?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb7fe50ae950bcbe304d3?searchSessionId=13"
             },
             {
               "section": 321,
@@ -523,22 +379,6 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26dd6e45b8f75945795710?searchSessionId=13"
             },
             {
-              "section": 239,
-              "row": 6,
-              "price": 864,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a266e6099548238fd73784b?searchSessionId=13"
-            },
-            {
-              "section": 130,
-              "row": 29,
-              "price": 865,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26fb2399548238fd7e503f?searchSessionId=13"
-            },
-            {
               "section": 311,
               "row": 32,
               "price": 867,
@@ -547,25 +387,9 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fdfb1d9e5c23638779af84?searchSessionId=13"
             },
             {
-              "section": 122,
-              "row": 20,
-              "price": 868,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69f6c17550ae950bcb3625be?searchSessionId=13"
-            },
-            {
-              "section": 240,
-              "row": 2,
-              "price": 868,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a212d1499548238fdaf5e08?searchSessionId=13"
-            },
-            {
               "section": 231,
               "row": 1,
-              "price": 880,
+              "price": 869,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0283e23828919bf0d9e526?searchSessionId=13"
@@ -579,44 +403,12 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1a4a5099548238fd6c9e89?searchSessionId=13"
             },
             {
-              "section": 113,
-              "row": 41,
-              "price": 873,
+              "section": 206,
+              "row": 4,
+              "price": 893,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a272e1599548238fd5ce0ef?searchSessionId=13"
-            },
-            {
-              "section": 113,
-              "row": 32,
-              "price": 882,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a21ecb699548238fd553a3d?searchSessionId=13"
-            },
-            {
-              "section": 203,
-              "row": 12,
-              "price": 980,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb7f050ae950bcbdff515?searchSessionId=13"
-            },
-            {
-              "section": 126,
-              "row": 34,
-              "price": 897,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a20b60a99548238fd906c3b?searchSessionId=13"
-            },
-            {
-              "section": 127,
-              "row": 29,
-              "price": 899,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26be8999548238fdcc9091?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a187f3d99548238fd8c9218?searchSessionId=13"
             },
             {
               "section": 120,
@@ -635,33 +427,33 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fdfb1d9e5c23638779b0e1?searchSessionId=13"
             },
             {
-              "section": 109,
-              "row": 20,
-              "price": 1070,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1f6b7699548238fdd25ee8?searchSessionId=13"
-            },
-            {
-              "section": 111,
+              "section": 122,
               "row": 18,
-              "price": 948,
+              "price": 926,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0c87e53828919bf097ef00?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2033ce05321cfe3a5765d8?searchSessionId=13"
             },
             {
-              "section": 114,
-              "row": 33,
-              "price": 1048,
+              "section": 105,
+              "row": 20,
+              "price": 933,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb54250ae950bcb41541c?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69e8235d5d3b4e7cfca6e883?searchSessionId=13"
+            },
+            {
+              "section": 119,
+              "row": 35,
+              "price": 946,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1ef1a399548238fd049826?searchSessionId=13"
             },
             {
               "section": 209,
               "row": 4,
-              "price": 1008,
+              "price": 964,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb84050ae950bcbf3cfda?searchSessionId=13"
@@ -677,26 +469,10 @@
             {
               "section": 101,
               "row": 44,
-              "price": 977,
+              "price": 972,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a02d6bf3828919bf0c178b9?searchSessionId=13"
-            },
-            {
-              "section": 101,
-              "row": 17,
-              "price": 980,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a204cf599548238fd416753?searchSessionId=13"
-            },
-            {
-              "section": 119,
-              "row": 35,
-              "price": 990,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1ef1a399548238fd049826?searchSessionId=13"
             },
             {
               "section": 310,
@@ -707,12 +483,12 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69ea9bc15d3b4e7cfceda07f?searchSessionId=13"
             },
             {
-              "section": 110,
-              "row": 15,
-              "price": 1223,
+              "section": 107,
+              "row": 19,
+              "price": 995,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1f6af899548238fdb4b558?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb49950ae950bcb1e0a3d?searchSessionId=13"
             },
             {
               "section": 125,
@@ -723,25 +499,33 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a21ec7799548238fd47b1a5?searchSessionId=13"
             },
             {
-              "section": 123,
-              "row": 12,
-              "price": 1013,
+              "section": 113,
+              "row": 33,
+              "price": 1007,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a27c33f99548238fd2c3cbb?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a21ecdc99548238fd5f8541?searchSessionId=13"
             },
             {
-              "section": 110,
-              "row": 31,
-              "price": 1016,
+              "section": 113,
+              "row": 41,
+              "price": 1021,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1d2e1c99548238fdb1b477?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a272e1599548238fd5ce0ef?searchSessionId=13"
+            },
+            {
+              "section": 136,
+              "row": 35,
+              "price": 1036,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0345c92d679ec1dcf0c113?searchSessionId=13"
             },
             {
               "section": 206,
               "row": 1,
-              "price": 1071,
+              "price": 1041,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a24e5cc54a89d391b1b88c2?searchSessionId=13"
@@ -749,7 +533,7 @@
             {
               "section": 216,
               "row": 1,
-              "price": 1071,
+              "price": 1041,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a24e649249f73311573a655?searchSessionId=13"
@@ -757,7 +541,7 @@
             {
               "section": 241,
               "row": 1,
-              "price": 1071,
+              "price": 1041,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a24e6499b071d04bda88cd6?searchSessionId=13"
@@ -765,58 +549,42 @@
             {
               "section": 215,
               "row": 1,
-              "price": 1071,
+              "price": 1041,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a24e649fca1740109f1f9f7?searchSessionId=13"
             },
             {
-              "section": 109,
-              "row": 14,
-              "price": 1023,
+              "section": 326,
+              "row": 4,
+              "price": 1052,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0c87e53828919bf097efe8?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2562ad99548238fd64d1c7?searchSessionId=13"
             },
             {
-              "section": 111,
-              "row": 13,
-              "price": 1044,
+              "section": 101,
+              "row": 17,
+              "price": 1088,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0c87e53828919bf097ee69?searchSessionId=13"
-            },
-            {
-              "section": 107,
-              "row": 19,
-              "price": 1176,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69fbb49950ae950bcb1e0a3d?searchSessionId=13"
-            },
-            {
-              "section": 105,
-              "row": 20,
-              "price": 1086,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69e8235d5d3b4e7cfca6e883?searchSessionId=13"
-            },
-            {
-              "section": 102,
-              "row": 43,
-              "price": 1087,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/69efa1f4c2238aa6f3df7067?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a204cf599548238fd416753?searchSessionId=13"
             },
             {
               "section": 126,
               "row": 27,
-              "price": 1168,
+              "price": 1101,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a207ba399548238fdd4e9fd?searchSessionId=13"
+            },
+            {
+              "section": 130,
+              "row": 28,
+              "price": 1109,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a20f699548238fdc38959?searchSessionId=13"
             },
             {
               "section": 110,
@@ -827,76 +595,100 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0c87e53828919bf097f0e1?searchSessionId=13"
             },
             {
-              "section": 108,
-              "row": 7,
-              "price": 1116,
+              "section": 111,
+              "row": 18,
+              "price": 1119,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a20659b99548238fddded5b?searchSessionId=13"
-            },
-            {
-              "section": 113,
-              "row": 12,
-              "price": 1123,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a285a1699548238fd5fc404?searchSessionId=13"
-            },
-            {
-              "section": 130,
-              "row": 19,
-              "price": 1191,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1e545c99548238fd443733?searchSessionId=13"
-            },
-            {
-              "section": 112,
-              "row": 11,
-              "price": 1185,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a27819899548238fd548506?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a208999548238fdafb12e?searchSessionId=13"
             },
             {
               "section": 108,
               "row": 14,
-              "price": 1195,
+              "price": 1121,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2888b099548238fd998534?searchSessionId=13"
             },
             {
+              "section": 109,
+              "row": 21,
+              "price": 1132,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a297adf99548238fd5f047b?searchSessionId=13"
+            },
+            {
+              "section": 130,
+              "row": 19,
+              "price": 1135,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1e545c99548238fd443733?searchSessionId=13"
+            },
+            {
+              "section": 110,
+              "row": 14,
+              "price": 1159,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a20e599548238fdbf93c3?searchSessionId=13"
+            },
+            {
+              "section": 128,
+              "row": 34,
+              "price": 1190,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1d80431ab8b38c1db7b40f?searchSessionId=13"
+            },
+            {
+              "section": 109,
+              "row": 14,
+              "price": 1214,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0c87e53828919bf097ef1f?searchSessionId=13"
+            },
+            {
+              "section": 131,
+              "row": 84,
+              "price": 1251,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a22b5e699548238fdf28a9f?searchSessionId=13"
+            },
+            {
+              "section": 119,
+              "row": 11,
+              "price": 1277,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a181699548238fdc27903?searchSessionId=13"
+            },
+            {
+              "section": 113,
+              "row": 12,
+              "price": 1291,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a285a1699548238fd5fc404?searchSessionId=13"
+            },
+            {
+              "section": 112,
+              "row": 10,
+              "price": 1319,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28524799548238fd6d9201?searchSessionId=13"
+            },
+            {
               "section": 127,
               "row": 24,
-              "price": 1209,
+              "price": 1319,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a28524799548238fd6d927e?searchSessionId=13"
-            },
-            {
-              "section": 136,
-              "row": 35,
-              "price": 1240,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a0345c92d679ec1dcf0c113?searchSessionId=13"
-            },
-            {
-              "section": 326,
-              "row": 4,
-              "price": 1262,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2562ad99548238fd64d1c7?searchSessionId=13"
-            },
-            {
-              "section": 123,
-              "row": 23,
-              "price": 1301,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a29033499548238fd52f1c2?searchSessionId=13"
             },
             {
               "section": 326,
@@ -908,16 +700,16 @@
             },
             {
               "section": 128,
-              "row": 34,
-              "price": 1549,
+              "row": 15,
+              "price": 1814,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1d80431ab8b38c1db7b40f?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26f85a99548238fde89d79?searchSessionId=13"
             },
             {
               "section": 126,
               "row": 5,
-              "price": 2071,
+              "price": 1965,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a274c0d85465f1b96036aea?searchSessionId=13"
@@ -931,12 +723,20 @@
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a1474f33828919bf0bbe6fd?searchSessionId=13"
             },
             {
-              "section": 128,
-              "row": 15,
-              "price": 2047,
+              "section": 130,
+              "row": 6,
+              "price": 2312,
               "quantity": 2,
               "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a26f85a99548238fde89d79?searchSessionId=13"
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2a3accf42c7366056b69fc?searchSessionId=13"
+            },
+            {
+              "section": 127,
+              "row": 33,
+              "price": 2701,
+              "quantity": 2,
+              "provider": "gametime",
+              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a217bb40901771fc1723208?searchSessionId=13"
             },
             {
               "section": 101,
@@ -949,7 +749,7 @@
             {
               "section": 129,
               "row": 2,
-              "price": 4157,
+              "price": 3766,
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/6a2232e299548238fdba27f9?searchSessionId=13"
@@ -977,14 +777,6 @@
               "quantity": 2,
               "provider": "gametime",
               "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/694b36e294c93e607ff0eb37?searchSessionId=13"
-            },
-            {
-              "section": 130,
-              "row": 10,
-              "price": 7662,
-              "quantity": 2,
-              "provider": "gametime",
-              "link": "https://gametime.co/spain_caboverde/spain-vs-cape-verde-fifa-world-cup-match-14-group-h-tickets/6-15-2026-atlanta-ga-mercedes-benz-stadium/events/66b133468f03a9fe74d8ed68/listings/694b36e294c93e607ff0edc5?searchSessionId=13"
             },
             {
               "section": 128,
@@ -1029,7 +821,7 @@
       "date": "2024-12-19",
       "venue": "TD Garden",
       "ticketQuantity": 2,
-      "lastUpdated": "2026-06-10T12:58:20.828Z",
+      "lastUpdated": "2026-06-11T14:00:37.501Z",
       "sources": [
         {
           "provider": "tickpick",
