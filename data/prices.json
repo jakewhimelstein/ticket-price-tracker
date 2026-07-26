@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T11:11:56.124Z",
+  "lastUpdated": "2026-07-26T11:20:59.199Z",
   "ticketQuantity": 2,
   "games": [
     {
@@ -8,7 +8,7 @@
       "date": "2026-06-15",
       "venue": "Mercedes-Benz Stadium",
       "ticketQuantity": 2,
-      "lastUpdated": "2026-07-25T11:10:54.678Z",
+      "lastUpdated": "2026-07-26T11:19:57.515Z",
       "sources": [
         {
           "provider": "tickpick",
@@ -28,7 +28,7 @@
       "date": "2024-12-19",
       "venue": "TD Garden",
       "ticketQuantity": 2,
-      "lastUpdated": "2026-07-25T11:11:56.124Z",
+      "lastUpdated": "2026-07-26T11:20:59.199Z",
       "sources": [
         {
           "provider": "tickpick",
